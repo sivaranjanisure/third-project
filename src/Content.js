@@ -1,11 +1,12 @@
-import { Button } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 
 const Content = () => {
+  const [names, setNames] = useState("awesome");
+
   function handleNameChange() {
-    const names = ["awesome", "better", "wonderful", "fantastic"];
+    const name = ["awesome", "better", "wonderful", "fantastic"];
     const int = Math.floor(Math.random() * 4);
-    return names[int];
+    setNames(name[int]);
   }
 
   const handleClick = () => {
@@ -13,8 +14,19 @@ const Content = () => {
   };
   return (
     <content>
-      <p> let's get {handleNameChange()} experience </p>
-      <button onClick={() => handleClick()}> subscribe</button>
+      <p>let's get {names} experience</p>
+
+      <div class="one">
+        <button className="button1" onClick={() => handleClick()}>
+          {" "}
+          subscribe
+        </button>
+        <br></br>
+        <button className="button2" onClick={() => handleNameChange()}>
+          {" "}
+          click
+        </button>
+      </div>
     </content>
   );
 };

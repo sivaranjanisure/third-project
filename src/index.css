@@ -9,24 +9,28 @@ header{
   border-radius: 4px;
 }
 p{
-  
-  text-align:center;
-  
+  text-align: center;
 }
 
 button{
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 5px 5px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  align-items: center;
-  
-  
+}
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}
 
+.button1{
+  background-color: red;
+  color: white;
+  border-color:rgb(201, 189, 189) ;
+}
+.button2{
+  background-color: rgb(142, 214, 173);
+  color: black;
+  border-color:rgb(201, 189, 189) ;
 }
 footer{
   position: fixed;
