@@ -1,0 +1,39 @@
+header{
+ background-color:palevioletred;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+p{
+  
+  text-align:center;
+  
+}
+
+button{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  align-items: center;
+  
+  
+
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:palevioletred;
+  color: white;
+  text-align: center;
+}
