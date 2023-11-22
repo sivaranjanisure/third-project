@@ -15,12 +15,6 @@ p{
 button{
   text-align: center;
 }
-.one{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-align-items: center;
-}
 
 .button1{
   background-color: red;
