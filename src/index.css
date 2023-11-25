@@ -12,19 +12,37 @@ p{
   text-align: center;
 }
 
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+
+.item :focus,
+.item :focus{
+  color: red;
+  outline: none;
+
+}
+
 button{
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .button1{
   background-color: red;
   color: white;
   border-color:rgb(201, 189, 189) ;
+  text-align:center ;
 }
 .button2{
   background-color: rgb(142, 214, 173);
   color: black;
   border-color:rgb(201, 189, 189) ;
+  text-align:center ;
 }
 footer{
   position: fixed;
