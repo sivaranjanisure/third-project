@@ -16,14 +16,14 @@ const Content = () => {
     <content>
       <p>let's get {names} experience</p>
 
-      <div class="one">
+      <div className="one">
         <button className="button1" onClick={() => handleClick()}>
-          {" "}
+          
           subscribe
         </button>
         <br></br>
         <button className="button2" onClick={() => handleNameChange()}>
-          {" "}
+         
           click
         </button>
       </div>
